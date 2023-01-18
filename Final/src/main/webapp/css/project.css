@@ -1,0 +1,218 @@
+@charset "UTF-8";
+* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.header {
+				width: 100%;
+				height: 50px;
+				background-color: #f1f1f1;
+			}
+			
+			.header .address {
+				height: 31px;
+				width: 40%;
+				margin-left: 5px;
+				color: #646464;
+				font-size: 30px;
+				float: left;
+			}
+			
+			.header .loginregist {
+				height: 31px;
+				line-height: 31px;
+				font-size: 25px;
+				float: right;
+				margin-right: 40px;
+			}
+			
+			.header .guide>ul {
+				list-style: none;
+			}
+			
+			.header .guide span {
+				/*color:#f1f1f1;*/
+				font-size: 12px;
+				line-height: 31px;
+				display: block;
+				margin-left: 10px;
+				float: left;
+			}
+			
+			.head .huide ul>li {}
+			
+			.body {
+				width: 95%;
+				height: 400px;
+				margin: auto;
+			}
+			
+			.body .classes {
+				width: 100%;
+				height: 45px;
+				background: #cae8ea;
+				/*background-color: greenyellow;*/
+				margin: auto;
+			}
+			
+			.body .classes .text {
+				width: 20%;
+				height: 45px;
+				line-height: 45px;
+				color: #4f6b72;
+				font-weight: 700;
+				font-size: 17px;
+				background:  #cae8ea;
+				text-align: center;
+				display: inline-block;
+				float: left;
+			}
+			
+			.body .classes>ul {
+				list-style: none;
+			}
+			
+			.body .classes>ul span {
+				width: 7%;
+				height: 45px;
+				font-size: 25px;
+				color: #4f6b72;
+				line-height: 45px;
+				text-align: center;
+				display: inline-block;
+				float: left;
+			}
+			.body .classes>ul span a {
+				color: #4f6b72;
+				font-size:18px;
+			}
+			
+			.body .categries {
+				width: 20%;
+				height:500px;
+				display: block;
+				float:left;
+			}
+			
+			.body .categries ul {
+				list-style: none;
+			}
+			
+			.body .categries>ul>li {
+				background: #cae8ea;
+				width: 100%;
+				height:150px;
+				line-height: 40px;
+			}
+			
+			.body .categries>ul>li:hover {
+				background-color: #4f6b72;
+			}
+			
+			.body .categries>ul>li>span {
+				margin-left: 20px;
+			}
+			
+			.body .categries>ul>li:hover a {
+				color: rgb(200, 0, 0);
+			}
+			
+			.body .categries>ul>li a {
+			    margin-left: 50px;
+				color: #4f6b72;
+				font-size:18px;
+			}
+			
+			.body .categries>ul>li input {
+  			    display: none;
+			}
+			
+			.body .runimage{
+				width:700px;
+				height:580px;
+				margin:5px;
+				float:left;
+				background: #c1dad7;
+				/*background-color:deepskyblue;*/
+				
+			}
+			
+			.body .moreservices{
+				width:20%;
+				height:435px;
+				/*background-color: gold;*/
+				margin-top:5px;
+				float:left;
+				
+			}
+			.body .moreservices th{
+				height:40px;
+				text-align: left;
+				padding-left: 10px;
+			}
+			
+			.body .moreservices td{
+				height:60px;
+				width:160px;
+				text-align: center;
+				font-size:12px;
+				/*vertical-align: bottom;*/
+			}
+			
+			.body .moreservices ul>li>span{
+				height:76px;
+				width:375px;
+				display:block;		
+			}
+			#mytable {  
+    width: 700px;  
+    padding: 0;  
+    margin: 0;  
+}  
+caption {  
+    padding: 0 0 5px 0;  
+    width: 700px;  
+    font: italic 11px "trebuchet ms", verdana, arial, helvetica, sans-serif;  
+    text-align: right;  
+}  
+th {  
+    font: bold 11px "trebuchet ms", verdana, arial, helvetica, sans-serif;  
+    color: #4f6b72;  
+    border-right: 1px solid #c1dad7;  
+    border-bottom: 1px solid #c1dad7;  
+    border-top: 1px solid #c1dad7;  
+    letter-spacing: 2px;  
+    text-transform: uppercase;  
+    text-align: left;  
+    padding: 6px 6px 6px 12px;  
+    background: #cae8ea url(images/bg_header.jpg) no-repeat;  
+}  
+td {  
+    border-right: 1px solid #c1dad7;  
+    border-bottom: 1px solid #c1dad7;  
+    background: #fff;  
+    font-size:11px;  
+    padding: 6px 6px 6px 12px;  
+    color: #4f6b72;  
+}  
+td.alt {  
+    background: #f5fafa;  
+    color: #797268;  
+}  
+th.spec {  
+    border-left: 1px solid #c1dad7;  
+    border-top: 0;  
+    background: #fff url(images/bullet1.gif) no-repeat;  
+    font: bold 10px "trebuchet ms", verdana, arial, helvetica, sans-serif;  
+}  
+th.specalt {  
+    border-left: 1px solid #c1dad7;  
+    border-top: 0;  
+    background: #f5fafa url(images/bullet2.gif) no-repeat;  
+    font: bold 10px "trebuchet ms", verdana, arial, helvetica, sans-serif;  
+    color: #797268;  
+} /*-----for ie 5.x bug*/  
+html>body td {  
+    font-size:11px;  
+}
